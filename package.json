@@ -1,0 +1,29 @@
+{
+  "name": "creaiture",
+  "version": "1.0.0",
+  "description": "Desktop AI helper mini creature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "CreAIture"
+  },
+  "keywords": [
+    "ai",
+    "desktop",
+    "javascript",
+    "node",
+    "nodejs"
+  ],
+  "author": "emirhanyener",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/generative-ai": "^0.14.0",
+    "crypto": "^1.0.1",
+    "electron": "^31.1.0",
+    "screenshot-desktop": "^1.15.0"
+  }
+}
