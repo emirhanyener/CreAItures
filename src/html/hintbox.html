@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI Panel</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            overflow: hidden;
+            margin: 0px;
+            width: 100vw;
+            height: 100vh;
+        }
+        #hint{
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            padding: 8px;
+            font-size: 14px;
+            color: black;
+            outline: 0px;
+            border: 0px;
+        }
+        .container{
+            padding: 10px;
+            background-color: #ffffff;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #0af;
+            box-sizing: border-box;
+            border-radius: 16px;
+            border-bottom-right-radius: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="hint">Hello :)</div>
+    </div>
+    <script src="../../components/HintBox/hintbox_renderer.js"></script>
+</body>
+</html>
