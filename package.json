@@ -21,6 +21,7 @@
   "author": "emirhanyener",
   "license": "MIT",
   "devDependencies": {
+    "@electron/packager": "^18.3.3",
     "@google/generative-ai": "^0.14.0",
     "crypto": "^1.0.1",
     "electron": "^31.1.0",
